@@ -1,8 +1,6 @@
-let a = {
-  b: 10,
-  toString() {
-    return "Custom object";
-  },
-};
+// The word eval cannot be used as a variable:
 
-console.log(a.toString());
+"use strict";
+
+let value = 3;
+console.log(value);
