@@ -16,6 +16,13 @@
 
 // let x = Math.cos(2);
 // console.log(object)
-const {cos} = Math;
-let x = cos(23);
-console.log(x)
+// const {cos} = Math;
+// let x = cos(23);
+// console.log(x)
+
+//  For security reasons, eval() is not allowed to create variables in the scope from which it was called.
+
+let x;
+eval("x = 2");
+
+console.log(x);
